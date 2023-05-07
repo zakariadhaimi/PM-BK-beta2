@@ -16,6 +16,7 @@ services:
         - PORT=3000
         - DB=pdb
         - MONGO_INITDB_DATABASE=pdb
+        - JWT_KEY=@LsZ7mO9O0bd
 
   mongodb:
       image: mongo
